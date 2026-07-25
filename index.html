@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历 CV</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:system-ui, sans-serif}
+        body{background:#f5f7fa;padding:16px;max-width:1200px;margin:0 auto}
+        .header{text-align:center;margin-bottom:16px}
+        h1{color:#222;margin-bottom:10px;font-size:22px}
+        .btn{display:inline-block;padding:10px 22px;background:#2563eb;color:#fff;text-decoration:none;border-radius:6px;margin:6px}
+        .pdf-box{width:100%;height:90vh;border:1px solid #ddd;border-radius:8px}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>个人简历</h1>
+        <a class="btn" href="./cv.pdf" download>下载完整PDF简历</a>
+    </div>
+    <object class="pdf-box" data="./cv.pdf" type="application/pdf">
+        <p>浏览器不支持预览，<a href="./cv.pdf">点击打开简历</a></p>
+    </object>
+</body>
+</html>
 
